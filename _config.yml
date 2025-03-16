@@ -111,3 +111,32 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Konfiguracja polyglot
+languages: ["pl", "en"]
+default_lang: "pl"
+exclude_from_localization: ["assets", "images", "css", "js", "_sass"]
+parallel_localization: true
+
+# Dodaj tłumaczenia podstawowych elementów strony
+t:
+  pl:
+    site:
+      title: "Data Office"
+      description: "Blog edukacyjny poświęcony światu danych dla osób pracujących biurowo"
+    nav:
+      home: "Strona główna"
+      posts: "Wpisy"
+      categories: "Kategorie"
+      tags: "Tagi"
+      about: "O blogu"
+  en:
+    site:
+      title: "Data Office"
+      description: "Educational blog about the world of data for office workers"
+    nav:
+      home: "Home"
+      posts: "Posts"
+      categories: "Categories"
+      tags: "Tags"
+      about: "About"
