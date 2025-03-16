@@ -1,9 +1,23 @@
-main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+# Polski (domyślny)
+pl:
+  main:
+    - title: "Wpisy"
+      url: /posts/
+    - title: "Kategorie"
+      url: /categories/
+    - title: "Tagi"
+      url: /tags/
+    - title: "O blogu"
+      url: /about/
+
+# Angielski
+en:
+  main:
+    - title: "Posts"
+      url: /en/posts/
+    - title: "Categories"
+      url: /en/categories/
+    - title: "Tags"
+      url: /en/tags/
+    - title: "About"
+      url: /en/about/

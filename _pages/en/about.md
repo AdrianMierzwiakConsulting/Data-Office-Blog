@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Data Office"
 ---
 
 ## Witaj w świecie danych!
