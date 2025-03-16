@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -36,10 +38,22 @@
 
     <main class="container">
         <section class="hero">
-            <h2>Witaj w świecie danych!</h2>
-            <p>Data Office to blog edukacyjny, który przybliża fascynujący świat danych tym, którzy codziennie z nimi
-                pracują, nawet o tym nie wiedząc.</p>
-            <a href="pl/index.html" class="btn-primary">Czytaj artykuły</a>
+            <div class="hero-content">
+                <h2>Dane to nowy język biznesu</h2>
+                <p>Przystępne wprowadzenie do świata danych dla osób pracujących biurowo, które chcą rozumieć dane bez
+                    zagłębiania się w zawiłości techniczne.</p>
+                <a href="pl/index.html" class="btn-primary">Czytaj artykuły</a>
+
+                <div class="social-icons">
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="hero-circle"></div>
+            <div class="hero-image">
+                <img src="assets/images/posts/data-world.jpg" alt="Świat danych wizualizacja">
+            </div>
         </section>
 
         <section class="latest-posts">
@@ -51,6 +65,12 @@
                         <img src="assets/images/posts/data-world.jpg" alt="Świat danych">
                     </div>
                     <div class="post-content">
+                        <div class="author-info">
+                            <div class="author-avatar">
+                                <img src="assets/images/author.jpg" alt="Adrian Mierzwiak">
+                            </div>
+                            <span class="author-name">Adrian Mierzwiak</span>
+                        </div>
                         <h3><a href="pl/posts/2025-03-16-swiat-data.html">Jak wygląda świat DATA - przewodnik dla
                                 pracowników biurowych</a></h3>
                         <div class="post-meta">
@@ -64,7 +84,49 @@
                     </div>
                 </article>
 
-                <!-- Możesz dodać więcej artykułów tutaj -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="assets/images/posts/why-data-matters.jpg" alt="Dlaczego dane są ważne">
+                    </div>
+                    <div class="post-content">
+                        <div class="author-info">
+                            <div class="author-avatar">
+                                <img src="assets/images/author.jpg" alt="Adrian Mierzwiak">
+                            </div>
+                            <span class="author-name">Adrian Mierzwiak</span>
+                        </div>
+                        <h3><a href="#">Dlaczego dane są ważne w dzisiejszym biznesie</a></h3>
+                        <div class="post-meta">
+                            <span class="date">Wkrótce</span>
+                            <span class="category">Podstawy</span>
+                        </div>
+                        <p>Jak firmy i instytucje wykorzystują dane w codziennych operacjach: od reklamy, przez
+                            sprzedaż, po prognozowanie trendów i podejmowanie decyzji biznesowych.</p>
+                        <a href="#" class="read-more">Już wkrótce</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="assets/images/posts/excel-data.jpg" alt="Excel jako narzędzie analityczne">
+                    </div>
+                    <div class="post-content">
+                        <div class="author-info">
+                            <div class="author-avatar">
+                                <img src="assets/images/author.jpg" alt="Adrian Mierzwiak">
+                            </div>
+                            <span class="author-name">Adrian Mierzwiak</span>
+                        </div>
+                        <h3><a href="#">Excel jako podstawowe narzędzie analityczne</a></h3>
+                        <div class="post-meta">
+                            <span class="date">Wkrótce</span>
+                            <span class="category">Narzędzia</span>
+                        </div>
+                        <p>Jak wykorzystać pełny potencjał Excela do analizy danych bez konieczności uczenia się
+                            skomplikowanych narzędzi analitycznych.</p>
+                        <a href="#" class="read-more">Już wkrótce</a>
+                    </div>
+                </article>
             </div>
         </section>
     </main>
@@ -74,7 +136,13 @@
             <div class="footer-content">
                 <div class="footer-info">
                     <h3>Data Office</h3>
-                    <p>Blog edukacyjny o świecie danych dla osób pracujących biurowo.</p>
+                    <p>Blog edukacyjny o świecie danych dla osób pracujących biurowo, które chcą lepiej rozumieć dane w
+                        codziennej pracy.</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
                 </div>
                 <div class="footer-nav">
                     <h4>Nawigacja</h4>
@@ -85,10 +153,12 @@
                     </ul>
                 </div>
                 <div class="footer-social">
-                    <h4>Social Media</h4>
+                    <h4>Popularne tematy</h4>
                     <ul>
-                        <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        <li><a href="#">Data Engineering</a></li>
+                        <li><a href="#">Business Intelligence</a></li>
+                        <li><a href="#">Sztuczna Inteligencja</a></li>
+                        <li><a href="#">Machine Learning</a></li>
                     </ul>
                 </div>
             </div>
