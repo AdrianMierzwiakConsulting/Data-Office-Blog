@@ -1,7 +1,104 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Office - Blog o świecie danych dla pracowników biurowych</title>
+    <meta name="description"
+        content="Blog edukacyjny o świecie danych dla osób pracujących biurowo, które chcą lepiej rozumieć dane w codziennej pracy.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Data Office</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="pl/index.html" class="active">Blog</a></li>
+                    <li><a href="pl/categories.html">Kategorie</a></li>
+                    <li><a href="pl/about.html">O blogu</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <a href="pl/index.html" class="active">PL</a>
+                <a href="en/index.html">EN</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Witaj w świecie danych!</h2>
+            <p>Data Office to blog edukacyjny, który przybliża fascynujący świat danych tym, którzy codziennie z nimi
+                pracują, nawet o tym nie wiedząc.</p>
+            <a href="pl/index.html" class="btn-primary">Czytaj artykuły</a>
+        </section>
+
+        <section class="latest-posts">
+            <h2>Najnowsze artykuły</h2>
+
+            <div class="post-grid">
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="assets/images/posts/data-world.jpg" alt="Świat danych">
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="pl/posts/2025-03-16-swiat-data.html">Jak wygląda świat DATA - przewodnik dla
+                                pracowników biurowych</a></h3>
+                        <div class="post-meta">
+                            <span class="date">16 marca 2025</span>
+                            <span class="category">Wprowadzenie</span>
+                        </div>
+                        <p>Wprowadzenie do świata danych: czym jest Data Engineering, BI, AI, ML i dlaczego warto się
+                            tym interesować, nawet pracując na stanowisku niewymagającym zaawansowanej analizy danych.
+                        </p>
+                        <a href="pl/posts/2025-03-16-swiat-data.html" class="read-more">Czytaj więcej</a>
+                    </div>
+                </article>
+
+                <!-- Możesz dodać więcej artykułów tutaj -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Data Office</h3>
+                    <p>Blog edukacyjny o świecie danych dla osób pracujących biurowo.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Nawigacja</h4>
+                    <ul>
+                        <li><a href="pl/index.html">Blog</a></li>
+                        <li><a href="pl/categories.html">Kategorie</a></li>
+                        <li><a href="pl/about.html">O blogu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Social Media</h4>
+                    <ul>
+                        <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Data Office. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
